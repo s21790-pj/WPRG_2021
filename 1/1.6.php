@@ -4,7 +4,7 @@ $b = readline('Enter length B: ');
 $c = readline('Enter length C: ');
 
 if ($a+$b>$c && $a+$c>$b && $b+$c>$a){
-    echo 'You can build a triangle out of these values';
+    print('You can build a triangle out of these values');
 }else{
-    echo 'BŁĄD';
+    print('BŁĄD');
 }

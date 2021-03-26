@@ -1,2 +1,2 @@
 <?php
-echo("Witaj w świecie PHP!!!!");
+print("Witaj w świecie PHP!!!!");

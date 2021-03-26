@@ -18,6 +18,6 @@ function replace(&$x, &$y){
 if($a > $b) replace($a, $b);
 if($b > $c) replace($b, $c);
 if($a > $b) replace($a, $b);
-echo $a.' '.$b.' '.$c."\n";
-echo $c.' '.$b.' '.$a;
+print($a.' '.$b.' '.$c."\n");
+print($c.' '.$b.' '.$a);
 

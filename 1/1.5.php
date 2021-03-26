@@ -2,4 +2,4 @@
 $a='';
 $b='';
 $a=readline().$b=readline();
-echo 'A: '.$a."\n".'B: '.$b;
+print('A: '.$a."\n".'B: '.$b);

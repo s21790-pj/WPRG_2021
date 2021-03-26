@@ -7,10 +7,10 @@ while ($a <= 0 || $b <=0){
     $b = readline('Enter number B: ');
 }
 
-echo 'Addition: ' . ($a + $b)."\n";
-echo 'Subtraction: ' . ($a - $b)."\n";
-echo 'Multiplication: ' . $a*$b."\n";
-echo 'Modulo division: ' . $a%$b;
+print('Addition: ' . ($a + $b)."\n");
+print('Subtraction: ' . ($a - $b)."\n");
+print('Multiplication: ' . $a*$b."\n");
+print('Modulo division: ' . $a%$b);
 
 
 

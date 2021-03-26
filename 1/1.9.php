@@ -1,12 +1,27 @@
 <?php
 $arr1 = [];
 $arr2 = [];
+$arr1_len = readline('Enter length of array 1: ');
+$arr2_len = readline('Enter length of array 2: ');
+$len_diff = ($arr1_len-$arr2_len);
 
-for ($i=0; $i<5; $i++){
-    $tmp = readline('Enter value: ');
-    array_push($arr1, $tmp);
+for($i=0; $i<$arr1_len; $i++){
+    $arr1[$i] = readline('Enter value: ');
+}
+for($i=0; $i<$arr2_len; $i++){
+    $arr2[$i] = readline('Enter value: ');
 }
 
-print_r($arr1);
+$scalar_product = 0;
+
+if($len_diff == 0){
+    for($i=0; $i<$arr1_len; $i++){
+        $scalar_product += $arr1[$i]*$arr2[$i];
+    }
+    print("Scalar product: ".$scalar_product);
+}else{
+    print('BŁĄD');
+}
+
 
 
